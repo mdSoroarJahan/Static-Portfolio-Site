@@ -330,7 +330,7 @@
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="./assets/js/mail-script.js"></script>
     <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ config('services.google.maps_api_key') }}"></script>
     <script src="./assets/js/gmaps.min.js"></script>
     <script src="./assets/js/theme.js"></script>
 </body>
